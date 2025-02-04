@@ -1,0 +1,69 @@
+Head tag
+---------
+The <head> HTML element contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets.
+ There can be only one <head> element in an HTML document
+
+ <!DOCTYPE html>
+ ---------------
+This declaration defines the document type and version of HTML. It tells the browser to interpret the document as HTML5.
+
+<html lang="en">
+-----------------
+This tag signifies the start of the HTML document. The lang="en" attribute specifies the language of the document as English.
+
+<head>
+------
+This section contains metadata about the document, such as its title, character set, and viewport settings. This metadata is not displayed on the web page but is essential for the browser to interpret and display the page correctly.
+
+<meta charset="UTF-8">
+------------------------
+This meta tag specifies the character encoding for the document. UTF-8 is a standard encoding that supports many different characters from various languages, ensuring that text is displayed correctly.
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+-----------------------------------------------------------------------
+This meta tag is used to control the viewport's settings. It ensures that the page is displayed correctly on different devices by setting the width of the viewport to match the device's width and the initial zoom level to 1.
+
+<title>Document</title>
+-----------------------
+This tag defines the title of the document, which is displayed in the browser's title bar or tab.
+
+* [ HTML is not case sensative ]
+
+# TAGS :
+--------
+1. <hr> : The <hr>element represents a thematic break between paragraph-level elements: for example, a change of scene in a story, or a shift of topic within a section.
+2. <br> : we can use directly to it,there is not any closing tag for this tag. to add the line break.
+3. <!--  --> : comment tag 
+4. <a> : tag used to show the link
+example : 
+<a href="https://github.com/dkg2005" target="_blank">github.com/dhruv</a>  // target is used to open it in new tab
+5.<img> tag :  <img src="" alt="" >  // src means the path of the original image and
+                   alt means if the image is not then alternatively we can show or write something
+6. <b> : bold tag
+7. <i> : italic tag
+8. <u> : underline tag 
+9. <big> : big text printed
+10. <small> : for small text
+11. subscirpt tag :  <sub> to write like chemistray formula
+12. superscript tag : <sup> to write the power for some ,we can use it for mathematical expression
+13. pre tag : used to display text without ignoring spaces and next line
+14. page layout tags : header, main, footer (semantic tags) {Non-semantic tags are those tags which we can't understand directly while
+                        semantic tags can be understand by directly understanding.}
+
+15.main tag : section tag , article tag , aside tag 
+            section tag: For a section of your page
+            artice tag : for a article of your page
+            aside : for content aside the main content(ads)
+
+16. div tag : it is contianer used for other element , Block element , It takes Full width
+17. span tag : it is a inline element , it take the space it is needed to show the content
+18. table tag :  <table> tag then following are used to make it
+                 <caption> : used to show the captions about the table
+                 <thead> : used for head part of the table
+                 <tbody> : used for body part of the table
+                 <tr> :-> display table row
+                 <td> :-> display table data
+                 <th> :-> display table header
+                 Colspan : in HTML is an attribute that defines the number of columns a single cell can span in a table
+
+19. form tag : action: a attribute which is used to define what actions need to be performed when a form is submitted                 
