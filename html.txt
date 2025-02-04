@@ -67,3 +67,12 @@ example :
                  Colspan : in HTML is an attribute that defines the number of columns a single cell can span in a table
 
 19. form tag : action: a attribute which is used to define what actions need to be performed when a form is submitted                 
+20. label tag : label tag is used to label something like in forms we can use the label tag to label all inputs
+                <label for="--"> </label>   here in the for id is inserted so that matched with the other things id attribute
+
+21. div tag : Inside the div tag we can mention the id and class attributes
+22. select tag : It is used to give the dropdown like if we want to select from something then we can use this .
+                 Here name and id can be the attributes
+
+23. iframe tag
+24. video tag 
