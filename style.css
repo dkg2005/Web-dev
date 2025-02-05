@@ -1,0 +1,15 @@
+div + a {
+  color: rgb(11, 220, 32);   
+}
+/* a{
+    color: rgb(223, 96, 117);
+} */
+table{
+    color: blue;
+}
+select{
+    color: brown;
+}
+body{
+    background-color: rgb(3, 104, 104);
+}
